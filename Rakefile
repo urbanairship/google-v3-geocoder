@@ -20,7 +20,7 @@ Jeweler::Tasks.new do |gem|
   gem.description = %Q{Geokit::Geocoder subclass for interacting with Google's v3 API <http://code.google.com/apis/maps/documentation/geocoding/>}
   gem.email = "developers@tello.com"
   gem.authors = ["Andrew La Motte-Mitchell", "Tyler Wolf"]
-  gem.add_runtime_dependency gem "geokit", ">=1.5.0"
+  gem.add_runtime_dependency "geokit", ">=1.5.0"
 end
 Jeweler::RubygemsDotOrgTasks.new
 
