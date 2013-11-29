@@ -14,7 +14,8 @@ module Geokit
 
         return GeoLoc.new if !res.is_a?(Net::HTTPSuccess)
         json = res.body
-        logger.debug "Google V3 geocoding. Address: #{address}. Result: #{json}"
+        logger.debug "Google V3 geocoding. Address: #{address}."
+        logger.debug "Google V3 geocoding. Result: #{json}"
         return self.convert_json_to_geoloc(json)
       end
 
