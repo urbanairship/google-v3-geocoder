@@ -53,20 +53,17 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<json>, [">= 0"])
       s.add_development_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.5.2"])
-      s.add_runtime_dependency(%q<geokit>, [">= 1.5.0"])
     else
       s.add_dependency(%q<geokit>, [">= 1.5.0"])
       s.add_dependency(%q<json>, [">= 0"])
       s.add_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_dependency(%q<jeweler>, ["~> 1.5.2"])
-      s.add_dependency(%q<geokit>, [">= 1.5.0"])
     end
   else
     s.add_dependency(%q<geokit>, [">= 1.5.0"])
     s.add_dependency(%q<json>, [">= 0"])
     s.add_dependency(%q<bundler>, ["~> 1.0.0"])
     s.add_dependency(%q<jeweler>, ["~> 1.5.2"])
-    s.add_dependency(%q<geokit>, [">= 1.5.0"])
   end
 end
 
